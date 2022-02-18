@@ -6,7 +6,7 @@ Wallawow es una aplicaicon de compraventa de articulos por medio de anuncios.
 -Para utilizar la aplicacion haremos uso de la API REST sparrest.js  
 -Debemos seguir la indicaciones propias de la API  
 -Junto a la aplicacion hay un archivo db.json que debe ser usado en el setup de sparrest.js cuando se indica  
--Una vez levantada la API, procederemos a lanzar la aplicacion desde el terminar 
+-Una vez levantada la API, procederemos a lanzar la aplicacion desde el terminal 
 
 
 
