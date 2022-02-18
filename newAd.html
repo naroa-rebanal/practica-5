@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallawow | Nuevo anuncio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/wallawow-logo.png"></a>
+        <nav>
+            <ul>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="notification"></div>
+
+<main class="anuncio-nuevo">
+<h1>Crea un nuevo anuncio en Wallawow</h1>
+<p class="subtitle">¿Quieres vender algo? ¿Estas buscando algún articulo? Estás en el lugar correcto.</p>
+
+<form id="newAdForm">
+    <label>Describe el producto</label>
+    <input
+    type="text"
+    name="titleInput"
+    id="titleInput"
+    placeholder="Título del anuncio"
+    required
+  /> 
+    <label>Precio del artículo</label>
+    <input type="number"
+    name="priceInput"
+    id="priceInput"
+    placeholder="Precio del artículo"
+    required
+    >
+    <label>Describe el producto</label>
+    <textarea rows="5"
+    name="extractInput"
+    id="extractInput"
+    placeholder="Describe el producto"
+    required
+    ></textarea>
+    <label>Lo vendes o lo buscas?</label>
+    <select 
+    name="typeInput"
+              id="typeInput"
+              required
+              >
+        <option value="Vendo">Vendo</option>
+        <option value="Busco">Busco</option>
+    </select>
+    <label>Indica la url de tu imagen</label>
+    <input
+              type="text"
+              name="imageInput"
+              id="imageInput"
+              placeholder="Url de tu imagen"
+            />
+            <button type="submit" disabled>Crear anuncio</button>
+        </form>
+</main>
+
+<script type="module" src="./new-ad/newAd.js"></script>
+<script type="module" src="./shared/header.js"></script>
+
+</body>
+</html>
