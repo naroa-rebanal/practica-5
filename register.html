@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallawow | Registro</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/wallawow-logo.png"></a>
+        <nav>
+            <ul>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="notification"></div>
+
+    <main class="registro">
+        <h1>Registrate en Wallawow</h1>
+        <form id="formularioRegistro"> 
+            <input
+              type="text"
+              name="textInput"
+              id="textInput"
+              placeholder="Usuario"
+              required
+            />
+            <input
+            type="password"
+            name="passwordInput"
+            id="passwordInput"
+            placeholder="contraseña"
+            required
+          />      
+          <input
+              type="password"
+              name="passwordMatchInput"
+              id="passwordMatchInput"
+              placeholder="Repite la contraseña"
+              required
+            />
+            <button disabled type="submit">Registrarme</button>
+
+            <p>Si ya tienes una cuenta creada, <a href="/login.html">inicia sesión</a></p>
+        </form>
+
+        <script type="module" src="./register/register.js"></script>
+        <script type="module" src="./shared/header.js"></script>
+
+    </main>
+</body>
+</html>

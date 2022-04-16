@@ -1,0 +1,94 @@
+{
+  "ads": [
+    {
+      "id": 1,
+      "image": "https://www.nicols.es/38997-large_default/collar-oro-chaton-celebrity-108.jpg",
+      "title": "Collar de oro",
+      "price": "300",
+      "extract": "Vendo collar de oro de 18k con incrustaciones de rubies en perfecto estado de conservación. Precio no negociable.",
+      "type": "venta",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.wallapop.com/images/10420/c2/lk/__/c10420p729959182/i2375939380.jpg?pictureSize=W640",
+      "title": "Colchón 135cm",
+      "price": "100",
+      "extract": "Busco un colchón para cama de 135cm. Preferiblemente de visco y en buen estado.",
+      "type": "compra",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "image": "https://mirococo.com/wp-content/uploads/2020/03/mesas-de-suar-macizas-1024x683.jpg",
+      "title": "Mesa de comedor de madera de diseño",
+      "price": "700",
+      "extract": "Vendo esta maravillosa mesa de madera maciza con un diseño esclusivo y en perfectas condiciones. También se venden las sillas a juego. Consultar con el vendedor.",
+      "type": "venta",
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.sklum.com/es/wk/1140117/mesita-de-noche-en-madera-de-mango-atsana.jpg",
+      "title": "Mesita de noche",
+      "price": "40",
+      "extract": "Estoy buscando una mesita de noche de tamaño pequeño, como mucho 30cm de ancho. Si encuentro algo que me guste el presupuesto puede aumentar.",
+      "type": "compra",
+      "userId": 3
+    },
+    {
+      "id": 5,
+      "image": "https://midodecoracion.es/26151/mystere-silla-metal-dorado-terciopelo-turquesa.jpg",
+      "title": "Silla de terciopelo turquesa",
+      "price": "250",
+      "extract": "¡Oportunidad! Consigue esta maravillosa silla de terciopelo turquesa de diseño a un precio increible. Está como nuevo ya que tiene muy poco uso.",
+      "type": "venta",
+      "userId": 3
+    },
+    {
+      "id": 6,
+      "image": "https://www.vindastore.com/wp-content/uploads/2021/06/PENDIENTES-AROS-DORADOS.jpg",
+      "title": "Pendientes dorados",
+      "price": "50",
+      "extract": "Hola! Estoy buscando unos pendientes en tonos dorados para una boda. Porfi necesito ajustarme al presupuesto.",
+      "type": "compra",
+      "userId": 3
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2015/04/97979-cual-es-exito-libros-harry-potter.jpg?itok=cF0YzVXi",
+      "title": "Libro Harry Potter y la orden del fenix",
+      "price": "10",
+      "extract": "Estoy vendiendo los libros de Harry Potter. Tengo toda la saga, si quieres más de uno te hago precio. Escríbeme.",
+      "type": "venta",
+      "userId": 2
+    },
+    {
+      "id": 8,
+      "image": "https://roselin.es/media/catalog/product/cache/8dcea415b9c0a4a1fd7caa79dd04649e/c/i/circonitas-negras.jpg",
+      "title": "Juego de anillos de plata",
+      "price": "30",
+      "extract": "Busco un juego de anillos en plata. Así sencillitos pero elegante.",
+      "type": "compra",
+      "userId": 2
+    }
+    
+  ],
+  "users": [
+    {
+      "username": "UserOne",
+      "password": "$2b$10$uqUswAkGffV2v7ZGOC2PduB0DwEB2UFn3zOVvS5kcLyra9o7JdG0W",
+      "id": 1
+    },
+    {
+      "username": "UserTwo",
+      "password": "$2b$10$uGExrr/W5FpZZ8H03pD.k.2qNLJr3Vl/vdXun6gB7jIfF/EzLVAfK",
+      "id": 2
+    },
+    {
+      "username": "UserThree",
+      "password": "$2b$10$uGExrr/W5FpZZ8H03pD.k.EGLKVSGOmBMS5OiYhf.0OLdPi443uR6",
+      "id": 3
+    }
+  ]
+}

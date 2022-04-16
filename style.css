@@ -1,0 +1,337 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+/* GENERAL */
+body{
+   font-family:'Montserrat', sans-serif;
+}
+
+main{
+    max-width: 80%;
+    margin: auto;
+}
+
+p{
+    margin: 5px 0;
+}
+
+/* LISTING */
+
+h1, p.subtitle{
+    text-align: center;
+}
+
+section.anuncios-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 40px;
+}
+
+section.anuncios-listing article {
+    width: 40%;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+section.anuncios-listing article a{
+    color: black;
+    text-decoration: none;    
+
+}
+
+.anuncios-listing article img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.anuncios-listing article .tipo span{
+padding: 5px 10px;
+border-radius: 15px;
+}
+
+.anuncios-listing article .tipo .venta,
+.anuncio-single .tipo .venta{
+color: green;
+background-color: rgb(209, 245, 209);    
+}
+
+.anuncios-listing article .tipo .compra,
+.anuncio-single .tipo .compra{
+    color: rgb(194, 9, 154);
+    background-color: rgb(255, 212, 236);    
+    }
+
+.anuncios-listing .precio{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.anuncios-listing .nombre{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.anuncio-item .tipo{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.anuncio-item .tipo span{
+padding: 5px 10px;
+border-radius: 10px;
+}
+
+.anuncio-item .tipo .compra{
+    background-color: rgb(247, 187, 200);
+    color: rgb(139, 28, 28);
+}
+
+.anuncio-item .tipo .venta{
+    background-color: rgb(166, 218, 192);
+    color: rgb(11, 80, 11);
+}
+
+
+/* SINGLE */
+
+main.anuncio-single{
+    max-width: 60%;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+
+
+.anuncio-single img{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+.anuncio-single .precio{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.anuncio-single h1.nombre{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.anuncio-single .tipo{
+    margin: 20px 0;
+}
+
+.anuncio-single .tipo span{
+padding: 5px 10px;
+border-radius: 10px;
+}
+
+
+
+.anuncio-single button{
+    background-color: black;
+    color: white;
+    border:none;
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px
+}
+
+.anuncio-single button:disabled{
+    background-color: lightgrey;
+    color: grey;
+}
+
+.registro{
+    text-align: center;
+    padding: 20px;
+}
+
+.registro form, 
+.credentials-forms form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.registro input[type="text"], 
+.registro input[type="email"],
+.registro input[type="password"],
+.credentials-forms input[type="text"], 
+.credentials-forms input[type="password"]
+{
+padding: 3px 10px;
+font-size: 16px;
+border:none;
+border-bottom: 1px solid black;
+}
+
+.registro button,
+.credentials-forms button{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.registro button:disabled,
+.credentials-forms button:disabled{
+background-color: lightgrey;
+color: grey;
+}
+
+/* HEADER */
+header img{
+    max-height: 30px;
+}
+
+header{
+   padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;column-gap: 20px;
+}
+
+header nav ul a,
+header nav ul p{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+header nav ul p{
+    margin: 0;
+}
+
+header nav ul a:hover,
+header nav ul p:hover{
+    cursor: pointer;
+    color: fuchsia;
+}
+
+
+
+/* NUEVO ANUNCIO */
+
+.anuncio-nuevo form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    row-gap: 20px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.anuncio-nuevo form label{
+    margin-bottom: 0;
+}
+
+.anuncio-nuevo form input{
+font-size: 14px;
+padding: 10px;
+}
+
+
+.anuncio-nuevo form button{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.anuncio-nuevo form button:disabled{
+    background-color: lightgrey;
+    color: grey;
+}
+
+.anuncio-nuevo form select{
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.anuncio-single button:hover{
+    cursor: pointer;
+}
+
+
+/* NOTIFICACIONES */
+
+.notification {
+    width: 300px;
+    background-color: rgb(255, 67, 67);
+    color: white;
+    border-radius: 0.2rem;
+    display: flex;
+    position: relative;
+  }
+  
+  .notification p {
+    width: 80%;
+    padding: 0.5rem;
+  }
+  
+  .notification button {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+  }
+  
+
+
+  @media (max-width:767px){
+   
+
+    section.anuncios-listing article {
+        width: 80%;
+   
+    }
+
+
+header nav ul a, header nav ul p {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+
+    
+
+
+  }
